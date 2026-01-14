@@ -16,7 +16,7 @@ function sayMyName(){
 //     username:"hotesh",
 //     price:300,
 //     welcomeFunction: function(){
-//         console.log(  , 'welcome to website')
+//         console.log('$,welcome to website')
 //         console.log(this);
 //     }
 // }
@@ -31,10 +31,16 @@ function sayMyName(){
 
 /////// name of method is IIFE
 
-(function one(){
-    console.log("hello  this is safdar")
-})();                                             // jab ek se jyda iife ko run karna h to ; iska used karo
+// (function one(){
+//     console.log("hello  this is safdar")
+// })();                                             // jab ek se jyda iife ko run karna h to ; iska used karo
 
-(function one(){
-    console.log("hello  this is safdar")
-})(rahul)
+// (function one(){
+//     console.log("hello  this is safdar")
+// })(rahul)
+
+const greeting= "hello world"
+
+for( const greet of greeting){
+    console.log(`each char is ${greet}`)
+}
